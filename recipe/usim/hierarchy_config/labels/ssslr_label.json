@@ -1,0 +1,30 @@
+{
+    "stance":
+    {
+        "desc": "an agreement label for each comment's stance toward the claim in the provided context. Allowed labels: ['strong_disagree', 'disagree', 'lean_disagree', 'neutral', 'lean_agree', 'agree', 'strong_agree', 'off_topic']",
+        "threshold": 0.95,
+        "max_tokens": 24
+    },
+    "sentiment": 
+    {
+        "desc": "a sentiment label for each comment's emotional valence toward the claim/context or its subject. Allowed labels: ['severely_negative', 'strongly_negative', 'slightly_negative', 'neutral', 'slightly_positive', 'strongly_positive', 'extremely_positive']",
+        "threshold": 0.95,
+        "max_tokens": 24
+    },
+    "style": 
+    {
+        "desc": "a style label for each comment's linguistic style or tone. Allowed labels: ['formal', 'informal', 'sarcastic', 'humorous', 'serious', 'emotional', 'neutral', 'technical', 'persuasive', 'analytical', 'narrative', 'concise', 'elaborate']",
+        "threshold": 0.95,
+        "max_tokens": 24
+    },
+    "length": {
+        "desc": "a predicted length for each comment in words, categorized into: ['very_short' (1-20 words), 'short' (21-50 words), 'medium' (51-100 words), 'long' (101-200 words), 'very_long' (201+ words)]",
+        "threshold": 0.95,
+        "max_tokens": 24
+    },
+    "response": {
+        "desc": "the actual written comment or reply text provided by the user.",
+        "threshold": null,
+        "max_tokens": 512
+    }
+}

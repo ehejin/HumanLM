@@ -1,0 +1,11 @@
+{% for message in messages %}
+{{ '<|start_header_id|>' + message['role'] + '<|end_header_id|>' }}
+{%- if message['role'] != 'system' and message.get('name') %}
+[speaking: {{ message['name'] }}]
+{%- endif %}
+{{ message['content'] }}<|eot_id|>
+{% endfor %}
+{{ '<|start_header_id|>user<|end_header_id|>' }}
+{%- if speak_as is defined and speak_as is not none %}
+[speaking: {{ speak_as }}]
+{%- endif %}

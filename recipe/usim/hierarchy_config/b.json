@@ -1,0 +1,15 @@
+{
+    "belief": 
+    {
+        "desc": "HUMAN's belief (must be within 15 words), namely a foundational assumption about how people, relationships, or the world fundamentally operate. Beliefs should reflect underlying mental models, not surface-level observations. Prefer beliefs that would explain multiple behaviors over beliefs that describe a single situation. Ask: \"What deeper assumption about human nature or the world would lead someone to say/do this?\" For example, \"people don't change unless they're forced to,\" \"loyalty is earned, not owed,\" \"conflict avoidance creates bigger problems later,\". Not beliefs: Practical advice, strategies, or statements about what should happen. Belief is not specific to a target or event, it should be a general statement about how HUMAN views the world.",
+        "threshold": 0.95,
+        "max_tokens": 48,
+        "system_prompt": "../system_prompt/sebvgcr_belief.txt"
+    },
+    "response": {
+        "desc": "HUMAN's actual written comment or reply text.",
+        "threshold": null,
+        "max_tokens": 1024,
+        "system_prompt": "../system_prompt/sebvgcr_response.txt"
+    }
+}

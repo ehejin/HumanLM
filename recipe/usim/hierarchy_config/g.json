@@ -1,0 +1,15 @@
+{
+    "goal": 
+    {
+        "desc": "HUMAN's goal (must be within 15 words): what they are trying to do with this comment. For example, \"persuade people that ...\", \"making fun of the poster on ...\", \"further seek help with ...\", \"offer support to ...\"",
+        "threshold": 0.95,
+        "max_tokens": 48,
+        "system_prompt": "../system_prompt/sebvgcr_goal.txt"
+    },
+    "response": {
+        "desc": "HUMAN's actual written comment or reply text.",
+        "threshold": null,
+        "max_tokens": 1024,
+        "system_prompt": "../system_prompt/sebvgcr_response.txt"
+    }
+}

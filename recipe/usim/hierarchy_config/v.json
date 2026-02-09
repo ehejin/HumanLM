@@ -1,0 +1,15 @@
+{
+    "value": 
+    {
+        "desc": "HUMAN's value (must be within 15 words): what they think is important or should be prioritized. It is about \"what should matter\", not \"what is true\". For example, \"original ideas in a book are important\", \"characters should feel real\", anyone deserves basic respect\", and \"fairness matters more than efficiency\".",
+        "threshold": 0.95,
+        "max_tokens": 48,
+        "system_prompt": "../system_prompt/sebvgcr_value.txt"
+    },
+    "response": {
+        "desc": "HUMAN's actual written comment or reply text.",
+        "threshold": null,
+        "max_tokens": 1024,
+        "system_prompt": "../system_prompt/sebvgcr_response.txt"
+    }
+}

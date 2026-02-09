@@ -1,0 +1,30 @@
+{
+    "stance": 
+    {
+        "desc": "an agreement label for each comment's stance toward the claim in the provided context. ",
+        "threshold": 0.95,
+        "max_tokens": 24
+    },
+    "sentiment": 
+    {
+        "desc": "a sentiment label for each comment's emotional valence toward the claim/context or its subject. ",
+        "threshold": 0.95,
+        "max_tokens": 24
+    },
+    "style": 
+    {
+        "desc": "a style label for each comment's linguistic style or tone. ",
+        "threshold": 0.95,
+        "max_tokens": 24
+    },
+    "length": {
+        "desc": "a predicted length for each comment in words",
+        "threshold": 0.95,
+        "max_tokens": 24
+    },
+    "response": {
+        "desc": "the actual written comment or reply text provided by the user.",
+        "threshold": null,
+        "max_tokens": 512
+    }
+}

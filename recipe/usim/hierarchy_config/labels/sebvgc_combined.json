@@ -1,0 +1,10 @@
+{
+  "response": 
+    {
+      "names": "stance, emotion, belief, value, goal, communication, and response",
+      "desc": "stance: HUMAN's agreement (must within 15 words) toward the explicitly named target, such as a claim or subject, in provided context. For example, \"strongly agrees with student loan forgiveness,\" or \"somewhat disagrees with a carbon tax\". In these cases, having only \"strongly agrees\" or \"somewhat disagrees\" is not enough, as they are missing targets. If there are multiple, include all of them separated by semicolons.\nemotion: HUMAN's emotion (must within 15 words) toward an explicitly named target, with intensity. For example, \"Moderate heartbreak for the wildfire victims; Mild irritation about government's actions\".\nbelief: HUMAN's belief (must within 15 words) about what is true or how the world works. For example, \"family obligations are real, but they have limits,\" and \"a boundary only works if it's enforced consistently\". Belief is not specific to a target or event, it should be a general statement about how HUMAN views the world.\nvalue: HUMAN's value (must within 15 words): what they think is important or should be prioritized. It is about \"what should matter\", not \"what is true\". For example, \"original ideas in a book are important\", \"characters should feel real\", \"anyone deserves basic respect\", and \"fairness matters more than efficiency\".\ngoal: HUMAN's goal (must within 15 words): what they are trying to do with this comment. For example, \"persuade people that ...\", \"making fun of the poster on ...\", \"further seek help with ...\", \"offer support to ...\"\ncommunication: HUMAN's communication approach (must within 15 words): tone and how they structure their message. For examples, \"friendly, builds on a personal story then draws a lesson\", \"analytical, links claims with reasons and evidence step by step\", \"blunt, states conclusions with little explanation\"\nresponse: HUMAN's actual written comment or reply text.",
+      "threshold": 0.9,
+      "max_tokens": 48,
+      "system_prompt": "../system_prompt/combined.txt"
+    }
+}

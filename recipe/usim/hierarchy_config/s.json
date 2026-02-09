@@ -1,0 +1,16 @@
+{
+    "stance":
+    {
+        "desc": "HUMAN's agreement (must be within 15 words) toward the explicitly named target, such as a claim or subject, in provided context. For example, \"strongly agrees with student loan forgiveness,\" or \"somewhat disagrees with a carbon tax\". In these cases, having only \"strongly agrees\" or \"somewhat disagrees\" is not enough, as they are missing targets. If there are multiple, include all of them separated by semicolons.",
+        "threshold": 0.95,
+        "max_tokens": 48,
+        "system_prompt": "../system_prompt/sebvgcr_stance.txt"
+    },
+    "response": 
+    {
+        "desc": "HUMAN's actual written comment or reply text.",
+        "threshold": null,
+        "max_tokens": 1024,
+        "system_prompt": "../system_prompt/sebvgcr_response.txt"
+    }
+}

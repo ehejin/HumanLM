@@ -1,0 +1,15 @@
+{
+    "communication": 
+    {
+        "desc": "HUMAN's communication approach (must be within 15 words): tone and how they structure their message. For examples, \"friendly, builds on a personal story then draws a lesson\", \"analytical, links claims with reasons and evidence step by step\", \"blunt, states conclusions with little explanation\"",
+        "threshold": 0.95,
+        "max_tokens": 48,
+        "system_prompt": "../system_prompt/sebvgcr_communication.txt"
+    },
+    "response": {
+        "desc": "HUMAN's actual written comment or reply text.",
+        "threshold": null,
+        "max_tokens": 1024,
+        "system_prompt": "../system_prompt/sebvgcr_response.txt"
+    }
+}

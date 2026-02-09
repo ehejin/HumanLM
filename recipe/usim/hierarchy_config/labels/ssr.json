@@ -1,0 +1,19 @@
+{
+    "stance":
+    {
+        "desc": "an agreement label (in five words) for each comment's stance toward the claim in the provided context, such as 'strong disagree', 'lean agree', and 'not related'",
+        "threshold": 0.95,
+        "max_tokens": 24
+    },
+    "sentiment": 
+    {
+        "desc": "a sentiment label (in five words) for each comment's emotional valence toward the claim/context or its subject, such as 'severely negative', 'neutral', and 'slightly positive'",
+        "threshold": 0.95,
+        "max_tokens": 24
+    },
+    "response": {
+        "desc": "the actual written comment or reply text provided by the user.",
+        "threshold": null,
+        "max_tokens": 1024
+    }
+}

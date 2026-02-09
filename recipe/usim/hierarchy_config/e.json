@@ -1,0 +1,15 @@
+{
+    "emotion": 
+    {
+        "desc": "HUMAN's emotions with intensity (must be within 15 words) toward an explicitly named target. For example, \"Moderate heartbreak for the wildfire victims; Mild irritation about government's actions\". In this case, having only \"mild irritation,\" or \"moderate heartbreak\" are not sufficient, as the answer must express all three aspects: the emotion, the degree of emotion, and the target. If there are multiple, include all of them separated by semicolons.",
+        "threshold": 0.95,
+        "max_tokens": 48,
+        "system_prompt": "../system_prompt/sebvgcr_emotion.txt"
+    },
+    "response": {
+        "desc": "HUMAN's actual written comment or reply text.",
+        "threshold": null,
+        "max_tokens": 1024,
+        "system_prompt": "../system_prompt/sebvgcr_response.txt"
+    }
+}

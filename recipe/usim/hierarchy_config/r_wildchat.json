@@ -1,0 +1,8 @@
+{
+    "response": {
+        "desc": "HUMAN's actual written comment or reply text.",
+        "threshold": null,
+        "max_tokens": 512,
+        "system_prompt": "../system_prompt/wildchat/sebvgcr_response_wildchat.txt"
+    }
+}
